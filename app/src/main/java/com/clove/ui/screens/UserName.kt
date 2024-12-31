@@ -1,4 +1,4 @@
-package com.example.clove.ui.screens
+package com.clove.ui.screens
 
 import androidx.compose.ui.res.colorResource
 import androidx.compose.foundation.Image
@@ -34,7 +34,6 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.clove.R
-import com.clove.ui.screens.JaldiFontFamily
 import com.clove.ui.theme.CloveTheme
 
 
