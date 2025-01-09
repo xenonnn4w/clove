@@ -4,6 +4,7 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
+import com.clove.ui.screens.HomeScreen
 import com.clove.ui.theme.CloveTheme
 
 class MainActivity : ComponentActivity() {
@@ -12,7 +13,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             CloveTheme {
-                NavigationSetup() // Use the NavigationSetup composable for navigation
+                HomeScreen() // Use the NavigationSetup composable for navigation
             }
         }
     }
