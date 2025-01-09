@@ -71,7 +71,7 @@ fun WelcomeScreen(navController: NavController) {
             modifier = Modifier
                 .fillMaxSize()
                 .padding(16.dp),
-            verticalArrangement = Arrangement.SpaceBetween,
+
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
             Column(
@@ -105,7 +105,7 @@ fun WelcomeScreen(navController: NavController) {
             }
 
 
-
+            Spacer(modifier = Modifier.height(60.dp))
 
             // Meditation image and quote with animation
             Column(
@@ -138,7 +138,6 @@ fun WelcomeScreen(navController: NavController) {
                     modifier = Modifier.padding(bottom = 16.dp)
                 )
             }
-
             // Button
             Button(
                 onClick = { navController.navigate("username") },
@@ -149,6 +148,7 @@ fun WelcomeScreen(navController: NavController) {
                     .shadow(elevation = 8.dp, shape = MaterialTheme.shapes.medium)
                     .height(50.dp)
                     .width(200.dp)
+                    .padding()
             ) {
                 Text(text = "Get Started", color = Color.White, fontFamily = FontFamily.SansSerif)
             }
